@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <style>
+          .carousel{
+              height: 17%;
+          }
+          .location{
+              border-top-right-radius: 20px;
+              border-bottom-left-radius: 20px;
+              width: 100%;
+          }
+      </style>
+  </head>
+  <body class="bg-dark">
+<!--  navbar starts here-->
+   <nav class="navbar navbar-expand-lg bg-info border border-danger-subtle ">
+
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#">BETA WEBSITES</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link active" aria-current="page" href="#">Home</a>-->
+<!--        </li>-->
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown text-light">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Website Development</a></li>
+            <li><a class="dropdown-item" href="#">Android Programming</a></li>
+            <li><a class="dropdown-item" href="#">Cyber security</a></li>
+            <li><a class="dropdown-item" href="#">Website Design</a></li>
+
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" aria-disabled="true">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"  >Shop</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 border border-dark-subtle" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-dark" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--navbar ends here-->
+
+<!--slider starts here-->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="11.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="22.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="33.jpeg" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--slider ends here-->
+
+<!--About starts here-->
+
+<div class="row container m-3 bg-dark text-light">
+    <h2 class="text-center">About us</h2>
+      <div class="col-md-6 ">
+          <p>Beta Websites is a company that creates and designs quality websites and android softwares.
+              It's founder is none other than Phares,a qualified professional in website development and android programming.
+              
+          </p>
+      </div>
+      <div class="col-md-6">
+          <img src="location.jpeg" class="location" alt="">
+      </div>
+
+
+    </div>
+<!--About ends here-->
+
+<!-- services start here-->
+<div class="row container">
+    <h2 class="text-light text-center">Our services</h2>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+  <img src="Web%20development.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Web Development</h5>
+    <p class="card-text">Quality websites are what we develop</p>
+
+  </div>
+</div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+  <img src="android%20programming.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Android Programming</h5>
+    <p class="card-text">We develop quality android application</p>
+
+  </div>
+</div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+  <img src="cyber%20security.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cyber Security</h5>
+    <p class="card-text">Security is kept tight</p>
+
+  </div>
+</div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<!-- services ends here-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
